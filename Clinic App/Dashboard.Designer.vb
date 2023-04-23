@@ -23,18 +23,20 @@ Partial Class Dashboard
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle28 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle29 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle30 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle31 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle32 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle33 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle34 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle35 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle36 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Guna2ShadowForm1 = New Guna.UI2.WinForms.Guna2ShadowForm(Me.components)
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2ControlBox2 = New Guna.UI2.WinForms.Guna2ControlBox()
         Me.Guna2ControlBox1 = New Guna.UI2.WinForms.Guna2ControlBox()
-        Me.Guna2DragControl1 = New Guna.UI2.WinForms.Guna2DragControl(Me.components)
         Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
         Me.BackgroundWorker2 = New System.ComponentModel.BackgroundWorker()
         Me.Guna2GradientPanel1 = New Guna.UI2.WinForms.Guna2GradientPanel()
@@ -52,18 +54,30 @@ Partial Class Dashboard
         Me.Guna2CustomGradientPanel1 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
         Me.Guna2HtmlLabel5 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.importPatBtn = New Guna.UI2.WinForms.Guna2Button()
+        Me.refreshpatbtn = New Guna.UI2.WinForms.Guna2Button()
+        Me.deletepatBtn = New Guna.UI2.WinForms.Guna2Button()
+        Me.updatepatBtn = New Guna.UI2.WinForms.Guna2Button()
+        Me.addpatBtn = New Guna.UI2.WinForms.Guna2Button()
+        Me.patientList = New Guna.UI2.WinForms.Guna2DataGridView()
+        Me.addresstxtbox = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Guna2HtmlLabel17 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.agetxtbox = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Guna2HtmlLabel16 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.lnametxtbox = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Guna2HtmlLabel15 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.fnametxtbox = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Guna2HtmlLabel14 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.patIDtxtbox = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Guna2HtmlLabel13 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel3 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.TabPage6 = New System.Windows.Forms.TabPage()
         Me.Guna2HtmlLabel12 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
-        Me.searchBtn = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.medRefBtn = New Guna.UI2.WinForms.Guna2Button()
-        Me.medRevBtn = New Guna.UI2.WinForms.Guna2Button()
         Me.medDateTxt = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Guna2HtmlLabel11 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.medAddBtn = New Guna.UI2.WinForms.Guna2Button()
-        Me.medUpBtn = New Guna.UI2.WinForms.Guna2Button()
         Me.medNameTxt = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Guna2HtmlLabel4 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.descriptTxt = New Guna.UI2.WinForms.Guna2TextBox()
@@ -74,8 +88,14 @@ Partial Class Dashboard
         Me.Guna2HtmlLabel10 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2DataGridView3 = New Guna.UI2.WinForms.Guna2DataGridView()
         Me.Guna2HtmlLabel7 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.searchBtn = New Guna.UI2.WinForms.Guna2Button()
+        Me.medRefBtn = New Guna.UI2.WinForms.Guna2Button()
+        Me.medRevBtn = New Guna.UI2.WinForms.Guna2Button()
+        Me.medAddBtn = New Guna.UI2.WinForms.Guna2Button()
+        Me.medUpBtn = New Guna.UI2.WinForms.Guna2Button()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
         Me.TabPage5 = New System.Windows.Forms.TabPage()
+        Me.bckupDBbtn = New Guna.UI2.WinForms.Guna2Button()
         Me.refBtn = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2DataGridView2 = New Guna.UI2.WinForms.Guna2DataGridView()
         Me.unametxt = New Guna.UI2.WinForms.Guna2TextBox()
@@ -90,13 +110,14 @@ Partial Class Dashboard
         Me.adminIDtxt = New Guna.UI2.WinForms.Guna2TextBox()
         Me.adminLabel = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2DragControl1 = New Guna.UI2.WinForms.Guna2DragControl(Me.components)
         Me.Guna2Panel1.SuspendLayout()
         Me.Guna2GradientPanel1.SuspendLayout()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
+        CType(Me.patientList, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage6.SuspendLayout()
         Me.TabPage3.SuspendLayout()
         CType(Me.Guna2DataGridView3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -152,12 +173,6 @@ Partial Class Dashboard
         Me.Guna2ControlBox1.Name = "Guna2ControlBox1"
         Me.Guna2ControlBox1.Size = New System.Drawing.Size(19, 13)
         Me.Guna2ControlBox1.TabIndex = 2
-        '
-        'Guna2DragControl1
-        '
-        Me.Guna2DragControl1.DockIndicatorTransparencyValue = 0.6R
-        Me.Guna2DragControl1.TargetControl = Me
-        Me.Guna2DragControl1.UseTransparentDrag = True
         '
         'Guna2GradientPanel1
         '
@@ -452,6 +467,22 @@ Partial Class Dashboard
         '
         'TabPage2
         '
+        Me.TabPage2.Controls.Add(Me.importPatBtn)
+        Me.TabPage2.Controls.Add(Me.refreshpatbtn)
+        Me.TabPage2.Controls.Add(Me.deletepatBtn)
+        Me.TabPage2.Controls.Add(Me.updatepatBtn)
+        Me.TabPage2.Controls.Add(Me.addpatBtn)
+        Me.TabPage2.Controls.Add(Me.patientList)
+        Me.TabPage2.Controls.Add(Me.addresstxtbox)
+        Me.TabPage2.Controls.Add(Me.Guna2HtmlLabel17)
+        Me.TabPage2.Controls.Add(Me.agetxtbox)
+        Me.TabPage2.Controls.Add(Me.Guna2HtmlLabel16)
+        Me.TabPage2.Controls.Add(Me.lnametxtbox)
+        Me.TabPage2.Controls.Add(Me.Guna2HtmlLabel15)
+        Me.TabPage2.Controls.Add(Me.fnametxtbox)
+        Me.TabPage2.Controls.Add(Me.Guna2HtmlLabel14)
+        Me.TabPage2.Controls.Add(Me.patIDtxtbox)
+        Me.TabPage2.Controls.Add(Me.Guna2HtmlLabel13)
         Me.TabPage2.Controls.Add(Me.Guna2HtmlLabel3)
         Me.TabPage2.Location = New System.Drawing.Point(4, 22)
         Me.TabPage2.Name = "TabPage2"
@@ -461,14 +492,325 @@ Partial Class Dashboard
         Me.TabPage2.Text = "patientTab"
         Me.TabPage2.UseVisualStyleBackColor = True
         '
+        'importPatBtn
+        '
+        Me.importPatBtn.Animated = True
+        Me.importPatBtn.AutoRoundedCorners = True
+        Me.importPatBtn.BorderRadius = 18
+        Me.importPatBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.importPatBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.importPatBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.importPatBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.importPatBtn.FillColor = System.Drawing.Color.LimeGreen
+        Me.importPatBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.importPatBtn.ForeColor = System.Drawing.Color.White
+        Me.importPatBtn.Location = New System.Drawing.Point(519, 432)
+        Me.importPatBtn.Name = "importPatBtn"
+        Me.importPatBtn.Size = New System.Drawing.Size(97, 38)
+        Me.importPatBtn.TabIndex = 30
+        Me.importPatBtn.Text = "Import"
+        '
+        'refreshpatbtn
+        '
+        Me.refreshpatbtn.Animated = True
+        Me.refreshpatbtn.AutoRoundedCorners = True
+        Me.refreshpatbtn.BorderRadius = 15
+        Me.refreshpatbtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.refreshpatbtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.refreshpatbtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.refreshpatbtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.refreshpatbtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.refreshpatbtn.ForeColor = System.Drawing.Color.White
+        Me.refreshpatbtn.Image = Global.Clinic_App.My.Resources.Resources.icons8_synchronize_30
+        Me.refreshpatbtn.Location = New System.Drawing.Point(467, 437)
+        Me.refreshpatbtn.Name = "refreshpatbtn"
+        Me.refreshpatbtn.Size = New System.Drawing.Size(35, 33)
+        Me.refreshpatbtn.TabIndex = 29
+        '
+        'deletepatBtn
+        '
+        Me.deletepatBtn.Animated = True
+        Me.deletepatBtn.AutoRoundedCorners = True
+        Me.deletepatBtn.BorderRadius = 18
+        Me.deletepatBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.deletepatBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.deletepatBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.deletepatBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.deletepatBtn.FillColor = System.Drawing.Color.Firebrick
+        Me.deletepatBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.deletepatBtn.ForeColor = System.Drawing.Color.White
+        Me.deletepatBtn.Location = New System.Drawing.Point(409, 107)
+        Me.deletepatBtn.Name = "deletepatBtn"
+        Me.deletepatBtn.Size = New System.Drawing.Size(112, 38)
+        Me.deletepatBtn.TabIndex = 28
+        Me.deletepatBtn.Text = "Delete Patient"
+        '
+        'updatepatBtn
+        '
+        Me.updatepatBtn.Animated = True
+        Me.updatepatBtn.AutoRoundedCorners = True
+        Me.updatepatBtn.BorderRadius = 18
+        Me.updatepatBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.updatepatBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.updatepatBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.updatepatBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.updatepatBtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.updatepatBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.updatepatBtn.ForeColor = System.Drawing.Color.White
+        Me.updatepatBtn.Location = New System.Drawing.Point(277, 107)
+        Me.updatepatBtn.Name = "updatepatBtn"
+        Me.updatepatBtn.Size = New System.Drawing.Size(107, 38)
+        Me.updatepatBtn.TabIndex = 27
+        Me.updatepatBtn.Text = "Update Patient"
+        '
+        'addpatBtn
+        '
+        Me.addpatBtn.Animated = True
+        Me.addpatBtn.AutoRoundedCorners = True
+        Me.addpatBtn.BorderRadius = 18
+        Me.addpatBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.addpatBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.addpatBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.addpatBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.addpatBtn.FillColor = System.Drawing.Color.LimeGreen
+        Me.addpatBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.addpatBtn.ForeColor = System.Drawing.Color.White
+        Me.addpatBtn.Location = New System.Drawing.Point(147, 107)
+        Me.addpatBtn.Name = "addpatBtn"
+        Me.addpatBtn.Size = New System.Drawing.Size(97, 38)
+        Me.addpatBtn.TabIndex = 26
+        Me.addpatBtn.Text = "Add Patient"
+        '
+        'patientList
+        '
+        Me.patientList.AllowUserToAddRows = False
+        Me.patientList.AllowUserToDeleteRows = False
+        Me.patientList.AllowUserToResizeColumns = False
+        Me.patientList.AllowUserToResizeRows = False
+        DataGridViewCellStyle28.BackColor = System.Drawing.Color.White
+        Me.patientList.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle28
+        DataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle29.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle29.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle29.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle29.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle29.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.patientList.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle29
+        Me.patientList.ColumnHeadersHeight = 4
+        Me.patientList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        DataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle30.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle30.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle30.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle30.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle30.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle30.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.patientList.DefaultCellStyle = DataGridViewCellStyle30
+        Me.patientList.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.patientList.Location = New System.Drawing.Point(32, 169)
+        Me.patientList.Name = "patientList"
+        Me.patientList.ReadOnly = True
+        Me.patientList.RowHeadersVisible = False
+        Me.patientList.Size = New System.Drawing.Size(584, 258)
+        Me.patientList.TabIndex = 25
+        Me.patientList.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
+        Me.patientList.ThemeStyle.AlternatingRowsStyle.Font = Nothing
+        Me.patientList.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty
+        Me.patientList.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty
+        Me.patientList.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty
+        Me.patientList.ThemeStyle.BackColor = System.Drawing.Color.White
+        Me.patientList.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.patientList.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.patientList.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
+        Me.patientList.ThemeStyle.HeaderStyle.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.patientList.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White
+        Me.patientList.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        Me.patientList.ThemeStyle.HeaderStyle.Height = 4
+        Me.patientList.ThemeStyle.ReadOnly = True
+        Me.patientList.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White
+        Me.patientList.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
+        Me.patientList.ThemeStyle.RowsStyle.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.patientList.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        Me.patientList.ThemeStyle.RowsStyle.Height = 22
+        Me.patientList.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.patientList.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        '
+        'addresstxtbox
+        '
+        Me.addresstxtbox.Animated = True
+        Me.addresstxtbox.BorderRadius = 5
+        Me.addresstxtbox.BorderThickness = 2
+        Me.addresstxtbox.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.addresstxtbox.DefaultText = ""
+        Me.addresstxtbox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.addresstxtbox.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.addresstxtbox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.addresstxtbox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.addresstxtbox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.addresstxtbox.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.addresstxtbox.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.addresstxtbox.Location = New System.Drawing.Point(493, 58)
+        Me.addresstxtbox.Name = "addresstxtbox"
+        Me.addresstxtbox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.addresstxtbox.PlaceholderText = "Enter Address"
+        Me.addresstxtbox.SelectedText = ""
+        Me.addresstxtbox.Size = New System.Drawing.Size(110, 36)
+        Me.addresstxtbox.TabIndex = 24
+        '
+        'Guna2HtmlLabel17
+        '
+        Me.Guna2HtmlLabel17.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2HtmlLabel17.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2HtmlLabel17.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Guna2HtmlLabel17.Location = New System.Drawing.Point(493, 35)
+        Me.Guna2HtmlLabel17.Name = "Guna2HtmlLabel17"
+        Me.Guna2HtmlLabel17.Size = New System.Drawing.Size(45, 17)
+        Me.Guna2HtmlLabel17.TabIndex = 23
+        Me.Guna2HtmlLabel17.Text = "Address"
+        '
+        'agetxtbox
+        '
+        Me.agetxtbox.Animated = True
+        Me.agetxtbox.BorderRadius = 5
+        Me.agetxtbox.BorderThickness = 2
+        Me.agetxtbox.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.agetxtbox.DefaultText = ""
+        Me.agetxtbox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.agetxtbox.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.agetxtbox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.agetxtbox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.agetxtbox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.agetxtbox.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.agetxtbox.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.agetxtbox.Location = New System.Drawing.Point(409, 58)
+        Me.agetxtbox.Name = "agetxtbox"
+        Me.agetxtbox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.agetxtbox.PlaceholderText = "Enter Age"
+        Me.agetxtbox.SelectedText = ""
+        Me.agetxtbox.Size = New System.Drawing.Size(73, 36)
+        Me.agetxtbox.TabIndex = 22
+        '
+        'Guna2HtmlLabel16
+        '
+        Me.Guna2HtmlLabel16.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2HtmlLabel16.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2HtmlLabel16.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Guna2HtmlLabel16.Location = New System.Drawing.Point(409, 35)
+        Me.Guna2HtmlLabel16.Name = "Guna2HtmlLabel16"
+        Me.Guna2HtmlLabel16.Size = New System.Drawing.Size(24, 17)
+        Me.Guna2HtmlLabel16.TabIndex = 21
+        Me.Guna2HtmlLabel16.Text = "Age"
+        '
+        'lnametxtbox
+        '
+        Me.lnametxtbox.Animated = True
+        Me.lnametxtbox.BorderRadius = 5
+        Me.lnametxtbox.BorderThickness = 2
+        Me.lnametxtbox.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.lnametxtbox.DefaultText = ""
+        Me.lnametxtbox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.lnametxtbox.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.lnametxtbox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.lnametxtbox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.lnametxtbox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.lnametxtbox.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.lnametxtbox.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.lnametxtbox.Location = New System.Drawing.Point(268, 58)
+        Me.lnametxtbox.Name = "lnametxtbox"
+        Me.lnametxtbox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.lnametxtbox.PlaceholderText = "Enter Last Name"
+        Me.lnametxtbox.SelectedText = ""
+        Me.lnametxtbox.Size = New System.Drawing.Size(135, 36)
+        Me.lnametxtbox.TabIndex = 20
+        '
+        'Guna2HtmlLabel15
+        '
+        Me.Guna2HtmlLabel15.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2HtmlLabel15.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2HtmlLabel15.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Guna2HtmlLabel15.Location = New System.Drawing.Point(270, 35)
+        Me.Guna2HtmlLabel15.Name = "Guna2HtmlLabel15"
+        Me.Guna2HtmlLabel15.Size = New System.Drawing.Size(62, 17)
+        Me.Guna2HtmlLabel15.TabIndex = 19
+        Me.Guna2HtmlLabel15.Text = "Last` Name"
+        '
+        'fnametxtbox
+        '
+        Me.fnametxtbox.Animated = True
+        Me.fnametxtbox.BorderRadius = 5
+        Me.fnametxtbox.BorderThickness = 2
+        Me.fnametxtbox.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.fnametxtbox.DefaultText = ""
+        Me.fnametxtbox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.fnametxtbox.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.fnametxtbox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.fnametxtbox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.fnametxtbox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.fnametxtbox.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.fnametxtbox.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.fnametxtbox.Location = New System.Drawing.Point(147, 58)
+        Me.fnametxtbox.Name = "fnametxtbox"
+        Me.fnametxtbox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.fnametxtbox.PlaceholderText = "Enter First Name"
+        Me.fnametxtbox.SelectedText = ""
+        Me.fnametxtbox.Size = New System.Drawing.Size(110, 36)
+        Me.fnametxtbox.TabIndex = 18
+        '
+        'Guna2HtmlLabel14
+        '
+        Me.Guna2HtmlLabel14.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2HtmlLabel14.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2HtmlLabel14.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Guna2HtmlLabel14.Location = New System.Drawing.Point(149, 35)
+        Me.Guna2HtmlLabel14.Name = "Guna2HtmlLabel14"
+        Me.Guna2HtmlLabel14.Size = New System.Drawing.Size(60, 17)
+        Me.Guna2HtmlLabel14.TabIndex = 17
+        Me.Guna2HtmlLabel14.Text = "First Name"
+        '
+        'patIDtxtbox
+        '
+        Me.patIDtxtbox.Animated = True
+        Me.patIDtxtbox.BorderRadius = 5
+        Me.patIDtxtbox.BorderThickness = 2
+        Me.patIDtxtbox.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.patIDtxtbox.DefaultText = ""
+        Me.patIDtxtbox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.patIDtxtbox.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.patIDtxtbox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.patIDtxtbox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.patIDtxtbox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.patIDtxtbox.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.patIDtxtbox.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.patIDtxtbox.Location = New System.Drawing.Point(28, 58)
+        Me.patIDtxtbox.Name = "patIDtxtbox"
+        Me.patIDtxtbox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.patIDtxtbox.PlaceholderText = "Patient ID"
+        Me.patIDtxtbox.SelectedText = ""
+        Me.patIDtxtbox.Size = New System.Drawing.Size(110, 36)
+        Me.patIDtxtbox.TabIndex = 16
+        '
+        'Guna2HtmlLabel13
+        '
+        Me.Guna2HtmlLabel13.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2HtmlLabel13.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2HtmlLabel13.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Guna2HtmlLabel13.Location = New System.Drawing.Point(32, 35)
+        Me.Guna2HtmlLabel13.Name = "Guna2HtmlLabel13"
+        Me.Guna2HtmlLabel13.Size = New System.Drawing.Size(56, 17)
+        Me.Guna2HtmlLabel13.TabIndex = 15
+        Me.Guna2HtmlLabel13.Text = "Patient ID"
+        '
         'Guna2HtmlLabel3
         '
         Me.Guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel3.Location = New System.Drawing.Point(179, 161)
+        Me.Guna2HtmlLabel3.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2HtmlLabel3.ForeColor = System.Drawing.Color.DimGray
+        Me.Guna2HtmlLabel3.Location = New System.Drawing.Point(6, 6)
         Me.Guna2HtmlLabel3.Name = "Guna2HtmlLabel3"
-        Me.Guna2HtmlLabel3.Size = New System.Drawing.Size(35, 15)
-        Me.Guna2HtmlLabel3.TabIndex = 0
-        Me.Guna2HtmlLabel3.Text = "patient "
+        Me.Guna2HtmlLabel3.Size = New System.Drawing.Size(148, 23)
+        Me.Guna2HtmlLabel3.TabIndex = 3
+        Me.Guna2HtmlLabel3.Text = "Dashboard / Patients"
         '
         'TabPage6
         '
@@ -493,14 +835,9 @@ Partial Class Dashboard
         'TabPage3
         '
         Me.TabPage3.Controls.Add(Me.Guna2Button1)
-        Me.TabPage3.Controls.Add(Me.searchBtn)
         Me.TabPage3.Controls.Add(Me.Guna2TextBox1)
-        Me.TabPage3.Controls.Add(Me.medRefBtn)
-        Me.TabPage3.Controls.Add(Me.medRevBtn)
         Me.TabPage3.Controls.Add(Me.medDateTxt)
         Me.TabPage3.Controls.Add(Me.Guna2HtmlLabel11)
-        Me.TabPage3.Controls.Add(Me.medAddBtn)
-        Me.TabPage3.Controls.Add(Me.medUpBtn)
         Me.TabPage3.Controls.Add(Me.medNameTxt)
         Me.TabPage3.Controls.Add(Me.Guna2HtmlLabel4)
         Me.TabPage3.Controls.Add(Me.descriptTxt)
@@ -511,6 +848,11 @@ Partial Class Dashboard
         Me.TabPage3.Controls.Add(Me.Guna2HtmlLabel10)
         Me.TabPage3.Controls.Add(Me.Guna2DataGridView3)
         Me.TabPage3.Controls.Add(Me.Guna2HtmlLabel7)
+        Me.TabPage3.Controls.Add(Me.searchBtn)
+        Me.TabPage3.Controls.Add(Me.medRefBtn)
+        Me.TabPage3.Controls.Add(Me.medRevBtn)
+        Me.TabPage3.Controls.Add(Me.medAddBtn)
+        Me.TabPage3.Controls.Add(Me.medUpBtn)
         Me.TabPage3.Location = New System.Drawing.Point(4, 22)
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
@@ -519,23 +861,23 @@ Partial Class Dashboard
         Me.TabPage3.Text = "medinvTab"
         Me.TabPage3.UseVisualStyleBackColor = True
         '
-        'searchBtn
+        'Guna2Button1
         '
-        Me.searchBtn.Animated = True
-        Me.searchBtn.BorderColor = System.Drawing.Color.Transparent
-        Me.searchBtn.BorderRadius = 10
-        Me.searchBtn.DisabledState.BorderColor = System.Drawing.Color.Transparent
-        Me.searchBtn.DisabledState.CustomBorderColor = System.Drawing.Color.Transparent
-        Me.searchBtn.DisabledState.FillColor = System.Drawing.Color.Transparent
-        Me.searchBtn.DisabledState.ForeColor = System.Drawing.Color.Transparent
-        Me.searchBtn.FillColor = System.Drawing.Color.Transparent
-        Me.searchBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.searchBtn.ForeColor = System.Drawing.Color.Transparent
-        Me.searchBtn.Image = Global.Clinic_App.My.Resources.Resources.icons8_google_web_search_30
-        Me.searchBtn.Location = New System.Drawing.Point(263, 223)
-        Me.searchBtn.Name = "searchBtn"
-        Me.searchBtn.Size = New System.Drawing.Size(37, 36)
-        Me.searchBtn.TabIndex = 31
+        Me.Guna2Button1.Animated = True
+        Me.Guna2Button1.AutoRoundedCorners = True
+        Me.Guna2Button1.BorderRadius = 10
+        Me.Guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2Button1.FillColor = System.Drawing.Color.Silver
+        Me.Guna2Button1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.Guna2Button1.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button1.Location = New System.Drawing.Point(503, 236)
+        Me.Guna2Button1.Name = "Guna2Button1"
+        Me.Guna2Button1.Size = New System.Drawing.Size(63, 23)
+        Me.Guna2Button1.TabIndex = 32
+        Me.Guna2Button1.Text = "Export"
         '
         'Guna2TextBox1
         '
@@ -558,40 +900,6 @@ Partial Class Dashboard
         Me.Guna2TextBox1.SelectedText = ""
         Me.Guna2TextBox1.Size = New System.Drawing.Size(230, 36)
         Me.Guna2TextBox1.TabIndex = 30
-        '
-        'medRefBtn
-        '
-        Me.medRefBtn.Animated = True
-        Me.medRefBtn.BorderRadius = 10
-        Me.medRefBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.medRefBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.medRefBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.medRefBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.medRefBtn.FillColor = System.Drawing.Color.Transparent
-        Me.medRefBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.medRefBtn.ForeColor = System.Drawing.Color.White
-        Me.medRefBtn.Image = Global.Clinic_App.My.Resources.Resources.icons8_restart_30
-        Me.medRefBtn.Location = New System.Drawing.Point(579, 223)
-        Me.medRefBtn.Name = "medRefBtn"
-        Me.medRefBtn.Size = New System.Drawing.Size(52, 36)
-        Me.medRefBtn.TabIndex = 29
-        '
-        'medRevBtn
-        '
-        Me.medRevBtn.Animated = True
-        Me.medRevBtn.BorderRadius = 10
-        Me.medRevBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.medRevBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.medRevBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.medRevBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.medRevBtn.FillColor = System.Drawing.Color.Transparent
-        Me.medRevBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.medRevBtn.ForeColor = System.Drawing.Color.White
-        Me.medRevBtn.Image = Global.Clinic_App.My.Resources.Resources.icons8_remove_30__1_
-        Me.medRevBtn.Location = New System.Drawing.Point(578, 185)
-        Me.medRevBtn.Name = "medRevBtn"
-        Me.medRevBtn.Size = New System.Drawing.Size(52, 36)
-        Me.medRevBtn.TabIndex = 28
         '
         'medDateTxt
         '
@@ -625,40 +933,6 @@ Partial Class Dashboard
         Me.Guna2HtmlLabel11.Size = New System.Drawing.Size(63, 17)
         Me.Guna2HtmlLabel11.TabIndex = 26
         Me.Guna2HtmlLabel11.Text = "Expiry Date"
-        '
-        'medAddBtn
-        '
-        Me.medAddBtn.Animated = True
-        Me.medAddBtn.BorderRadius = 10
-        Me.medAddBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.medAddBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.medAddBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.medAddBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.medAddBtn.FillColor = System.Drawing.Color.Transparent
-        Me.medAddBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.medAddBtn.ForeColor = System.Drawing.Color.White
-        Me.medAddBtn.Image = Global.Clinic_App.My.Resources.Resources.icons8_add_30__1_
-        Me.medAddBtn.Location = New System.Drawing.Point(576, 102)
-        Me.medAddBtn.Name = "medAddBtn"
-        Me.medAddBtn.Size = New System.Drawing.Size(52, 36)
-        Me.medAddBtn.TabIndex = 25
-        '
-        'medUpBtn
-        '
-        Me.medUpBtn.Animated = True
-        Me.medUpBtn.BorderRadius = 10
-        Me.medUpBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.medUpBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.medUpBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.medUpBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.medUpBtn.FillColor = System.Drawing.Color.Transparent
-        Me.medUpBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.medUpBtn.ForeColor = System.Drawing.Color.White
-        Me.medUpBtn.Image = Global.Clinic_App.My.Resources.Resources.icons8_update_30__1_
-        Me.medUpBtn.Location = New System.Drawing.Point(576, 142)
-        Me.medUpBtn.Name = "medUpBtn"
-        Me.medUpBtn.Size = New System.Drawing.Size(52, 36)
-        Me.medUpBtn.TabIndex = 24
         '
         'medNameTxt
         '
@@ -801,27 +1075,27 @@ Partial Class Dashboard
         Me.Guna2DataGridView3.AllowUserToDeleteRows = False
         Me.Guna2DataGridView3.AllowUserToResizeColumns = False
         Me.Guna2DataGridView3.AllowUserToResizeRows = False
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.White
-        Me.Guna2DataGridView3.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle31.BackColor = System.Drawing.Color.White
+        Me.Guna2DataGridView3.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle31
         Me.Guna2DataGridView3.BackgroundColor = System.Drawing.Color.DarkGray
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Guna2DataGridView3.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle32.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle32.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle32.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle32.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle32.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle32.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Guna2DataGridView3.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle32
         Me.Guna2DataGridView3.ColumnHeadersHeight = 15
         Me.Guna2DataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.Guna2DataGridView3.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle33.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle33.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle33.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle33.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle33.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle33.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.Guna2DataGridView3.DefaultCellStyle = DataGridViewCellStyle33
         Me.Guna2DataGridView3.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Guna2DataGridView3.Location = New System.Drawing.Point(13, 269)
         Me.Guna2DataGridView3.Name = "Guna2DataGridView3"
@@ -863,6 +1137,92 @@ Partial Class Dashboard
         Me.Guna2HtmlLabel7.TabIndex = 2
         Me.Guna2HtmlLabel7.Text = "Dashboard / Medicine Inventory"
         '
+        'searchBtn
+        '
+        Me.searchBtn.Animated = True
+        Me.searchBtn.BorderColor = System.Drawing.Color.Transparent
+        Me.searchBtn.BorderRadius = 10
+        Me.searchBtn.DisabledState.BorderColor = System.Drawing.Color.Transparent
+        Me.searchBtn.DisabledState.CustomBorderColor = System.Drawing.Color.Transparent
+        Me.searchBtn.DisabledState.FillColor = System.Drawing.Color.Transparent
+        Me.searchBtn.DisabledState.ForeColor = System.Drawing.Color.Transparent
+        Me.searchBtn.FillColor = System.Drawing.Color.Transparent
+        Me.searchBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.searchBtn.ForeColor = System.Drawing.Color.Transparent
+        Me.searchBtn.Image = Global.Clinic_App.My.Resources.Resources.icons8_google_web_search_30
+        Me.searchBtn.Location = New System.Drawing.Point(263, 223)
+        Me.searchBtn.Name = "searchBtn"
+        Me.searchBtn.Size = New System.Drawing.Size(37, 36)
+        Me.searchBtn.TabIndex = 31
+        '
+        'medRefBtn
+        '
+        Me.medRefBtn.Animated = True
+        Me.medRefBtn.BorderRadius = 10
+        Me.medRefBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.medRefBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.medRefBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.medRefBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.medRefBtn.FillColor = System.Drawing.Color.Transparent
+        Me.medRefBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.medRefBtn.ForeColor = System.Drawing.Color.White
+        Me.medRefBtn.Image = Global.Clinic_App.My.Resources.Resources.icons8_restart_30
+        Me.medRefBtn.Location = New System.Drawing.Point(579, 223)
+        Me.medRefBtn.Name = "medRefBtn"
+        Me.medRefBtn.Size = New System.Drawing.Size(52, 36)
+        Me.medRefBtn.TabIndex = 29
+        '
+        'medRevBtn
+        '
+        Me.medRevBtn.Animated = True
+        Me.medRevBtn.BorderRadius = 10
+        Me.medRevBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.medRevBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.medRevBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.medRevBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.medRevBtn.FillColor = System.Drawing.Color.Transparent
+        Me.medRevBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.medRevBtn.ForeColor = System.Drawing.Color.White
+        Me.medRevBtn.Image = Global.Clinic_App.My.Resources.Resources.icons8_remove_30__1_
+        Me.medRevBtn.Location = New System.Drawing.Point(578, 185)
+        Me.medRevBtn.Name = "medRevBtn"
+        Me.medRevBtn.Size = New System.Drawing.Size(52, 36)
+        Me.medRevBtn.TabIndex = 28
+        '
+        'medAddBtn
+        '
+        Me.medAddBtn.Animated = True
+        Me.medAddBtn.BorderRadius = 10
+        Me.medAddBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.medAddBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.medAddBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.medAddBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.medAddBtn.FillColor = System.Drawing.Color.Transparent
+        Me.medAddBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.medAddBtn.ForeColor = System.Drawing.Color.White
+        Me.medAddBtn.Image = Global.Clinic_App.My.Resources.Resources.icons8_add_30__1_
+        Me.medAddBtn.Location = New System.Drawing.Point(576, 102)
+        Me.medAddBtn.Name = "medAddBtn"
+        Me.medAddBtn.Size = New System.Drawing.Size(52, 36)
+        Me.medAddBtn.TabIndex = 25
+        '
+        'medUpBtn
+        '
+        Me.medUpBtn.Animated = True
+        Me.medUpBtn.BorderRadius = 10
+        Me.medUpBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.medUpBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.medUpBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.medUpBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.medUpBtn.FillColor = System.Drawing.Color.Transparent
+        Me.medUpBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.medUpBtn.ForeColor = System.Drawing.Color.White
+        Me.medUpBtn.Image = Global.Clinic_App.My.Resources.Resources.icons8_update_30__1_
+        Me.medUpBtn.Location = New System.Drawing.Point(576, 142)
+        Me.medUpBtn.Name = "medUpBtn"
+        Me.medUpBtn.Size = New System.Drawing.Size(52, 36)
+        Me.medUpBtn.TabIndex = 24
+        '
         'TabPage4
         '
         Me.TabPage4.Location = New System.Drawing.Point(4, 22)
@@ -875,6 +1235,7 @@ Partial Class Dashboard
         '
         'TabPage5
         '
+        Me.TabPage5.Controls.Add(Me.bckupDBbtn)
         Me.TabPage5.Controls.Add(Me.refBtn)
         Me.TabPage5.Controls.Add(Me.Guna2DataGridView2)
         Me.TabPage5.Controls.Add(Me.unametxt)
@@ -897,6 +1258,23 @@ Partial Class Dashboard
         Me.TabPage5.Text = "adminTab"
         Me.TabPage5.UseVisualStyleBackColor = True
         '
+        'bckupDBbtn
+        '
+        Me.bckupDBbtn.Animated = True
+        Me.bckupDBbtn.BorderColor = System.Drawing.Color.Transparent
+        Me.bckupDBbtn.BorderRadius = 10
+        Me.bckupDBbtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.bckupDBbtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.bckupDBbtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.bckupDBbtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.bckupDBbtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.bckupDBbtn.ForeColor = System.Drawing.Color.White
+        Me.bckupDBbtn.Location = New System.Drawing.Point(489, 423)
+        Me.bckupDBbtn.Name = "bckupDBbtn"
+        Me.bckupDBbtn.Size = New System.Drawing.Size(126, 40)
+        Me.bckupDBbtn.TabIndex = 15
+        Me.bckupDBbtn.Text = "Backup Database"
+        '
         'refBtn
         '
         Me.refBtn.AutoRoundedCorners = True
@@ -907,7 +1285,7 @@ Partial Class Dashboard
         Me.refBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.refBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.refBtn.ForeColor = System.Drawing.Color.White
-        Me.refBtn.Location = New System.Drawing.Point(498, 423)
+        Me.refBtn.Location = New System.Drawing.Point(68, 420)
         Me.refBtn.Name = "refBtn"
         Me.refBtn.Size = New System.Drawing.Size(118, 39)
         Me.refBtn.TabIndex = 14
@@ -919,28 +1297,28 @@ Partial Class Dashboard
         Me.Guna2DataGridView2.AllowUserToDeleteRows = False
         Me.Guna2DataGridView2.AllowUserToResizeColumns = False
         Me.Guna2DataGridView2.AllowUserToResizeRows = False
-        DataGridViewCellStyle4.BackColor = System.Drawing.Color.White
-        Me.Guna2DataGridView2.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle34.BackColor = System.Drawing.Color.White
+        Me.Guna2DataGridView2.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle34
         Me.Guna2DataGridView2.BackgroundColor = System.Drawing.Color.Silver
         Me.Guna2DataGridView2.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken
-        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Guna2DataGridView2.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle5
+        DataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle35.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle35.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle35.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle35.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle35.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle35.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Guna2DataGridView2.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle35
         Me.Guna2DataGridView2.ColumnHeadersHeight = 15
         Me.Guna2DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle6.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.Guna2DataGridView2.DefaultCellStyle = DataGridViewCellStyle6
+        DataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle36.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle36.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle36.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle36.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle36.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle36.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.Guna2DataGridView2.DefaultCellStyle = DataGridViewCellStyle36
         Me.Guna2DataGridView2.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Guna2DataGridView2.Location = New System.Drawing.Point(68, 211)
         Me.Guna2DataGridView2.Name = "Guna2DataGridView2"
@@ -1166,23 +1544,11 @@ Partial Class Dashboard
         Me.Guna2HtmlLabel2.TabIndex = 0
         Me.Guna2HtmlLabel2.Text = "Dashboard / Admin Settings"
         '
-        'Guna2Button1
+        'Guna2DragControl1
         '
-        Me.Guna2Button1.Animated = True
-        Me.Guna2Button1.AutoRoundedCorners = True
-        Me.Guna2Button1.BorderRadius = 10
-        Me.Guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button1.FillColor = System.Drawing.Color.Silver
-        Me.Guna2Button1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button1.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button1.Location = New System.Drawing.Point(503, 236)
-        Me.Guna2Button1.Name = "Guna2Button1"
-        Me.Guna2Button1.Size = New System.Drawing.Size(63, 23)
-        Me.Guna2Button1.TabIndex = 32
-        Me.Guna2Button1.Text = "Export"
+        Me.Guna2DragControl1.DockIndicatorTransparencyValue = 0.6R
+        Me.Guna2DragControl1.TargetControl = Me.Guna2CustomGradientPanel1
+        Me.Guna2DragControl1.UseTransparentDrag = True
         '
         'Dashboard
         '
@@ -1205,6 +1571,7 @@ Partial Class Dashboard
         Me.TabPage1.PerformLayout()
         Me.TabPage2.ResumeLayout(False)
         Me.TabPage2.PerformLayout()
+        CType(Me.patientList, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage6.ResumeLayout(False)
         Me.TabPage6.PerformLayout()
         Me.TabPage3.ResumeLayout(False)
@@ -1222,7 +1589,6 @@ Partial Class Dashboard
     Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2ControlBox2 As Guna.UI2.WinForms.Guna2ControlBox
     Friend WithEvents Guna2ControlBox1 As Guna.UI2.WinForms.Guna2ControlBox
-    Friend WithEvents Guna2DragControl1 As Guna.UI2.WinForms.Guna2DragControl
     Friend WithEvents Guna2GradientPanel1 As Guna.UI2.WinForms.Guna2GradientPanel
     Friend WithEvents BackgroundWorker1 As System.ComponentModel.BackgroundWorker
     Friend WithEvents BackgroundWorker2 As System.ComponentModel.BackgroundWorker
@@ -1238,7 +1604,6 @@ Partial Class Dashboard
     Friend WithEvents TabPage2 As TabPage
     Friend WithEvents TabPage3 As TabPage
     Friend WithEvents TabPage4 As TabPage
-    Friend WithEvents Guna2HtmlLabel3 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents TabPage5 As TabPage
     Friend WithEvents adminLabel As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel2 As Guna.UI2.WinForms.Guna2HtmlLabel
@@ -1279,4 +1644,23 @@ Partial Class Dashboard
     Friend WithEvents TabPage6 As TabPage
     Friend WithEvents Guna2HtmlLabel12 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2HtmlLabel3 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents patientList As Guna.UI2.WinForms.Guna2DataGridView
+    Friend WithEvents addresstxtbox As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Guna2HtmlLabel17 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents agetxtbox As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Guna2HtmlLabel16 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents lnametxtbox As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Guna2HtmlLabel15 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents fnametxtbox As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Guna2HtmlLabel14 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents patIDtxtbox As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Guna2HtmlLabel13 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents updatepatBtn As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents addpatBtn As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents refreshpatbtn As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents deletepatBtn As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents bckupDBbtn As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents importPatBtn As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2DragControl1 As Guna.UI2.WinForms.Guna2DragControl
 End Class

@@ -14,6 +14,7 @@ Public Class Dashboard
 
         load_table()
         medload()
+        patient()
 
     End Sub
 
@@ -282,5 +283,98 @@ Public Class Dashboard
         conn.Close()
     End Sub
 
+    Private Sub Guna2HtmlLabel3_Click(sender As Object, e As EventArgs) Handles Guna2HtmlLabel3.Click
 
+    End Sub
+
+    Private Sub Guna2Button3_Click(sender As Object, e As EventArgs) Handles updatepatBtn.Click
+
+    End Sub
+
+    Public Sub patient()
+        Dim SDA As New MySqlDataAdapter
+        Dim dbDataSet As New DataTable
+        Dim bSource As New BindingSource
+        Dim query As String
+
+        Try
+
+            query = "Select patientID, fname, lname, patientType, age, address from patients_tb"
+            cmd = New MySqlCommand(query, conn)
+            SDA.SelectCommand = cmd
+            SDA.Fill(dbDataSet)
+            bSource.DataSource = dbDataSet
+
+            patientList.DataSource = bSource
+            SDA.Update(dbDataSet)
+
+
+
+        Catch ex As Exception
+            'MsgShow("Error Loading Table", MsgType.Exclamation, MsgLanguage.English)
+            MsgBox(ex.Message)
+
+        End Try
+        conn.Close()
+    End Sub
+
+    Private Sub Guna2DataGridView3_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles Guna2DataGridView3.CellContentClick
+
+    End Sub
+
+    Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles bckupDBbtn.Click
+        Dim backup As New SaveFileDialog
+        backup.InitialDirectory = "D:\"
+        backup.Title = "Database Backup"
+        backup.CheckFileExists = False
+        backup.CheckPathExists = False
+        backup.DefaultExt = "sql"
+        backup.Filter = "sql files (*.sql)|*.sql|All files (*.*)|*.*"
+        backup.RestoreDirectory = True
+
+        If backup.ShowDialog = Windows.Forms.DialogResult.OK Then
+            Dim con2 As MySqlConnection = New MySqlConnection("server=127.0.0.1;uid=root;pwd=root;database=clinic_db")
+            Dim cmd2 As MySqlCommand = New MySqlCommand
+            cmd2.Connection = con2
+            con2.Open()
+            Dim mb As MySqlBackup = New MySqlBackup(cmd2)
+            mb.ExportToFile(backup.FileName)
+            con2.Close()
+            MsgShow("Database Backup Successfull", MsgType.Success, MsgLanguage.English)
+        ElseIf backup.ShowDialog = Windows.Forms.DialogResult.Cancel Then
+            Return
+        End If
+    End Sub
+
+    Private Sub refreshpatbtn_Click(sender As Object, e As EventArgs) Handles refreshpatbtn.Click
+        Dim SDA As New MySqlDataAdapter
+        Dim dbDataSet As New DataTable
+        Dim bSource As New BindingSource
+        Dim query As String
+
+        Try
+
+            query = "Select patientID, fname, lname, patientType, age, address from patients_tb"
+            cmd = New MySqlCommand(query, conn)
+            SDA.SelectCommand = cmd
+            SDA.Fill(dbDataSet)
+            bSource.DataSource = dbDataSet
+
+            patientList.DataSource = bSource
+            SDA.Update(dbDataSet)
+
+
+            dr.Close()
+
+        Catch ex As Exception
+            MsgShow("Error Loading Table", MsgType.Exclamation, MsgLanguage.English)
+            MsgBox(ex.Message)
+        End Try
+        conn.Close()
+    End Sub
+
+    Private Sub importPatBtn_Click(sender As Object, e As EventArgs) Handles importPatBtn.Click
+        ImportPatientForm.ShowDialog()
+
+    End Sub
 End Class
